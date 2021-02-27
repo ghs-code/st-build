@@ -1,5 +1,12 @@
 # Ignore patch reject files
 *.rej
 
-# Ignore built file
+# Ignore built files
 st
+*.o
+
+# Ignore originals
+*.orig
+
+# Ignore patching files
+*.diff
