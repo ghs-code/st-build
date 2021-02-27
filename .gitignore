@@ -1,0 +1,5 @@
+# Ignore patch reject files
+*.rej
+
+# Ignore built file
+st
