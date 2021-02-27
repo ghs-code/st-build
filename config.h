@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Mononoki Nerd Font:size=14:antialias=true:autohint=true";
-static int borderpx = 2;
+static int borderpx = 7;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -94,7 +94,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.88;
+float alpha = 1.0;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -117,14 +117,14 @@ static const char *colorname[] = {
 	"#81a1c1", /* blue    */
 	"#b48ead", /* magenta */
 	"#8fbcbb", /* cyan    */
-  "#eceff4",
+	"#eceff4",
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#555555",
-	"#2b2b2b",
-  "#a9b7c6",
+	"#2e3440",
+	"#a9b7c6",
 };
 
 
