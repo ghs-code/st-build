@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Mononoki Nerd Font:size=14:antialias=true:autohint=true";
+static char *font = "Mononoki Nerd Font:size=12:antialias=true:autohint=true";
 static char *font2[] = {
-  "Inconsolata for Powerline:size=13:antialias=true:autohint=true"
+  "Inconsolata for Powerline:size=12:antialias=true:autohint=true"
 };
 static int borderpx = 7;
 
