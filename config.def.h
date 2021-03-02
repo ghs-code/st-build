@@ -100,31 +100,31 @@ float alpha = 1.0;
 static const char *colorname[] = {
 	/* 8 normal colors */
 
-	"#1c1f24", /* black   */
-	"#ff6c6b", /* red     */
-	"#98be65", /* green   */
-	"#da8548", /* yellow  */
-	"#51afef", /* blue    */
-	"#c678dd", /* magenta */
-	"#5699af", /* cyan    */
-	"#202328", /* white   */
+	"#101010", /* black   */
+	"#f07178", /* red     */
+	"#c3e88d", /* green   */
+	"#ffcb6b", /* yellow  */
+	"#82aaff", /* blue    */
+	"#c792ea", /* magenta */
+	"#89ddff", /* cyan    */
+	"#d0d0d0", /* white   */
 	/* 8 bright colors */
 
-	"#5b6268", /* black   */
-	"#da8548", /* red     */
-	"#4db5bd", /* green   */
-	"#ecbe7b", /* yellow  */
-	"#3071db", /* blue    */
-	"#a9a1e1", /* magenta */
-	"#46d9ff", /* cyan    */
-	"#dfdfdf",
+	"#434758", /* black   */
+	"#ff8b92", /* red     */
+	"#ddffa7", /* green   */
+	"#ffe585", /* yellow  */
+	"#9cc4ff", /* blue    */
+	"#e1acff", /* magenta */
+	"#a3f7ff", /* cyan    */
+	"#ffffff",
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#555555",
-	"#282c34",
-	"#bbc2cf",
+	"#282a36",
+	"#bbc5ff",
 };
 
 
