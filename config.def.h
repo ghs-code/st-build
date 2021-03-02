@@ -100,31 +100,31 @@ float alpha = 1.0;
 static const char *colorname[] = {
 	/* 8 normal colors */
 
-	"#3b4252", /* black   */
-	"#bf616a", /* red     */
-	"#a3be8c", /* green   */
-	"#ebcb8b", /* yellow  */
-	"#81a1c1", /* blue    */
-	"#b48ead", /* magenta */
-	"#88c0d0", /* cyan    */
-	"#e5e9f0", /* white   */
+	"#1c1f24", /* black   */
+	"#ff6c6b", /* red     */
+	"#98be65", /* green   */
+	"#da8548", /* yellow  */
+	"#51afef", /* blue    */
+	"#c678dd", /* magenta */
+	"#5699af", /* cyan    */
+	"#202328", /* white   */
 	/* 8 bright colors */
 
-	"#4c566a", /* black   */
-	"#bf616a", /* red     */
-	"#a3be8c", /* green   */
-	"#ebcb8b", /* yellow  */
-	"#81a1c1", /* blue    */
-	"#b48ead", /* magenta */
-	"#8fbcbb", /* cyan    */
-	"#eceff4",
+	"#5b6268", /* black   */
+	"#da8548", /* red     */
+	"#4db5bd", /* green   */
+	"#ecbe7b", /* yellow  */
+	"#3071db", /* blue    */
+	"#a9a1e1", /* magenta */
+	"#46d9ff", /* cyan    */
+	"#dfdfdf",
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#555555",
-	"#2e3440",
-	"#a9b7c6",
+	"#282c34",
+	"#bbc2cf",
 };
 
 
@@ -132,7 +132,7 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 7;
+unsigned int defaultfg = 259;
 unsigned int defaultbg = 258;
 static unsigned int defaultcs = 256;
 static unsigned int defaultrcs = 257;
